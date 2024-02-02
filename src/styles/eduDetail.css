@@ -1,0 +1,47 @@
+h1 {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.eduForm {
+    width: 50%;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+#submit {
+    background-color: #5233BB;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #472ba0;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+#parentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    align-items: center;
+    margin: 2rem;
+    background-color: #1f1b3a;
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+.subContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.resultCard{
+    width: 50%;
+    margin: 1rem;
+    background-color: azure;
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    /* background-color: brown; */
+}

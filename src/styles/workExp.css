@@ -1,0 +1,22 @@
+.ask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yesNo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    padding: 2rem;
+    /* background-color: black; */
+}
